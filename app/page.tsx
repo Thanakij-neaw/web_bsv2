@@ -72,14 +72,19 @@ export default function CommunityLearningWebsite() {
               className="rounded-2xl bg-yellow-400 px-8 py-5 text-lg font-black text-black shadow-2xl transition hover:scale-105">
                 จองศึกษาดูงาน
               </a>
-
+  <a
+    href="/about"
+    className="rounded-2xl border border-white/40 bg-white/10 px-8 py-5 text-lg font-bold text-white backdrop-blur transition hover:bg-white hover:text-black"
+  >
+    เกี่ยวกับเรา
+  </a>
             </div>
           </div>
         </div>
       </section>
 
       {/* ABOUT */}
-      <section className="mx-auto max-w-7xl px-6 py-24">
+      <section id="about" className="mx-auto max-w-7xl px-6 py-24">
         <div className="grid items-center gap-16 lg:grid-cols-2">
           <div>
             <div className="inline-flex rounded-full bg-green-100 px-4 py-2 text-sm font-bold text-green-700">
